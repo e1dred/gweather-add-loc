@@ -75,7 +75,8 @@ chmod +x gweather-add-loc.sh
 | `LATITUDE` | Decimal degrees. Use a negative value for south. | `42.882004` |
 | `LONGITUDE` | Decimal degrees. Use a negative value for west. | `74.582748` |
 
-Need coordinates? Look them up with [Find My Coordinates](https://findmycoordinates.com/find-coordinates).
+> [!NOTE]
+> Need coordinates? Look them up with [Find My Coordinates](https://findmycoordinates.com/find-coordinates).
 
 ### 💡 Examples
 
