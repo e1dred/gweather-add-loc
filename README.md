@@ -30,11 +30,12 @@ cd gweather-add-loc
 chmod +x gweather-add-loc.sh
 ```
 
-## ⚙️ Usage
+## ⚙️ Usage 
 
 ```bash
 ./gweather-add-loc.sh "Location Name" LATITUDE LONGITUDE
 ```
+You can search for the latitude and longitude of a location here: https://www.latlong.net/
 
 ### 💡 Example
 
