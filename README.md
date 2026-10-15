@@ -33,9 +33,12 @@ sudo apt install bc
 # Arch Linux
 sudo pacman -S bc
 
-# Homebrew
+# Universal Blue distros Bluefin, Aurora, Bazzite (Homebrew)
 brew install bc
 ```
+
+> [!NOTE]
+> Universal Blue distros such as Bluefin, Aurora, and Bazzite are image-based and use Homebrew for command-line tools, so use the `brew` command above rather than `dnf`.
 
 ## Installation
 
