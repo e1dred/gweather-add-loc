@@ -22,10 +22,18 @@ The script requires `bc` for floating-point calculations:
 
 ## 🚀 Installation
 
-Clone the repository and make the script executable:
+Clone the repository from either GitHub or GitLab, then make the script executable:
 
+### Option A: GitHub
 ```bash
 git clone https://github.com/e1dred/gweather-add-loc.git
+cd gweather-add-loc
+chmod +x gweather-add-loc.sh
+```
+
+### Option B: GitLab
+```bash
+git clone https://gitlab.com/e1dred-group/gweather-add-loc.git
 cd gweather-add-loc
 chmod +x gweather-add-loc.sh
 ```
