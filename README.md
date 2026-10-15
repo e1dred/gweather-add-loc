@@ -18,13 +18,14 @@ The script requires `bc` for floating-point calculations:
 * **Fedora:** `sudo dnf install bc`
 * **Debian/Ubuntu:** `sudo apt install bc`
 * **Arch Linux:** `sudo pacman -S bc`
+* **Homebrew:** `brew install bc`
 
 ## 🚀 Installation
 
 Clone the repository and make the script executable:
 
 ```bash
-git clone [https://github.com/crian/gweather-add-loc.git](https://github.com/crian/gweather-add-loc.git)
+git clone https://github.com/e1dred/gweather-add-loc.git
 cd gweather-add-loc
 chmod +x gweather-add-loc.sh
 ```
@@ -37,9 +38,9 @@ chmod +x gweather-add-loc.sh
 
 ### 💡 Example
 
-Add Berlin:
+Add Bishkek, Kyrgyzstan:
 ```bash
-./gweather-add-loc.sh "Berlin" 52.5200 13.4050
+./gweather-add-loc.sh "Bishkek, Kyrgyzstan" 42.882004 74.582748
 ```
 
 The script automatically converts the coordinates to radians, formats the `libgweather-4` GVariant string, updates `gsettings`, and restarts `gnome-weather` to apply the changes.
